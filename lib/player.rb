@@ -1,23 +1,15 @@
 class Player
-  attr_accessor
+  attr_accessor :hand
 
-  def initialize
-    # stuff here
+  def initialize(hand)
+    @hand = hand
   end
+end
 
-  def stay
-    # stuff here
-  end
+class Dealer < Player
+  attr_accessor :hand
 
-  def hit
-    # stuff here
-  end
-
-  def double
-    # stuff here
-  end
-  
-  def split
-    # stuff here
+  def initialize(hand)
+    @hand = hand
   end
 end

@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
+require 'rubygems'
 require 'sinatra'
-require "sinatra/reloader" if development?
 require 'pry-byebug'
 
 enable :sessions
